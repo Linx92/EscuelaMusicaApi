@@ -70,3 +70,4 @@ D:\Proyectos .NET\EscuelaMusicaAPI\EscuelaMusicaAPI\obj\Debug\net8.0\refint\Escu
 D:\Proyectos .NET\EscuelaMusicaAPI\EscuelaMusicaAPI\obj\Debug\net8.0\EscuelaMusicaAPI.pdb
 D:\Proyectos .NET\EscuelaMusicaAPI\EscuelaMusicaAPI\obj\Debug\net8.0\EscuelaMusicaAPI.genruntimeconfig.cache
 D:\Proyectos .NET\EscuelaMusicaAPI\EscuelaMusicaAPI\obj\Debug\net8.0\ref\EscuelaMusicaAPI.dll
+D:\Proyectos .NET\EscuelaMusicaAPI\EscuelaMusicaAPI\obj\Debug\net8.0\EscuelaMusicaAPI.sourcelink.json
