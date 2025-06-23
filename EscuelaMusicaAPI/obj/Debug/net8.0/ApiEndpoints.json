@@ -1,0 +1,360 @@
+[
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoProfesorController",
+    "Method": "GetProfesoresPorAlumno",
+    "RelativePath": "api/alumnoprofesor/alumno/{alumnoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alumnoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EscuelaMusicaAPI.DTOs.ProfesorAlumnoInscritoTO, EscuelaMusicaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoProfesorController",
+    "Method": "Post",
+    "RelativePath": "api/alumnoprofesor/inscribir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscripcionAlumnoProfesorDTO",
+        "Type": "EscuelaMusicaAPI.DTOs.InscripcionAlumnoProfesorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoProfesorController",
+    "Method": "GetAlumnosPorProfesor",
+    "RelativePath": "api/alumnoprofesor/profesor/{profesorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EscuelaMusicaAPI.DTOs.AlumnosInscritosProfesorDTO, EscuelaMusicaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoController",
+    "Method": "Post",
+    "RelativePath": "api/alumnos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alumnoCreacionDTO",
+        "Type": "EscuelaMusicaAPI.DTOs.AlumnoCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoController",
+    "Method": "Get",
+    "RelativePath": "api/alumnos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EscuelaMusicaAPI.DTOs.EscuelaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoController",
+    "Method": "Get",
+    "RelativePath": "api/alumnos/{alumnoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alumnoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EscuelaMusicaAPI.DTOs.EscuelaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerAlumno"
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoController",
+    "Method": "Put",
+    "RelativePath": "api/alumnos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "alumnoCreacionDTO",
+        "Type": "EscuelaMusicaAPI.DTOs.AlumnoCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.AlumnoController",
+    "Method": "Delete",
+    "RelativePath": "api/alumnos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.EscuelaController",
+    "Method": "Get",
+    "RelativePath": "api/escuelas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EscuelaMusicaAPI.DTOs.EscuelaDTO, EscuelaMusicaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.EscuelaController",
+    "Method": "Post",
+    "RelativePath": "api/escuelas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "escuelaCreacionDTO",
+        "Type": "EscuelaMusicaAPI.DTOs.EscuelaCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.EscuelaController",
+    "Method": "Get",
+    "RelativePath": "api/escuelas/{EscuelaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EscuelaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EscuelaMusicaAPI.DTOs.EscuelaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerEscuela"
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.EscuelaController",
+    "Method": "Put",
+    "RelativePath": "api/escuelas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "escuelaCreacionDTO",
+        "Type": "EscuelaMusicaAPI.DTOs.EscuelaCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.EscuelaController",
+    "Method": "Delete",
+    "RelativePath": "api/escuelas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.ProfesorController",
+    "Method": "Post",
+    "RelativePath": "api/profesores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesorCreacionDTO",
+        "Type": "EscuelaMusicaAPI.DTOs.ProfesorCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.ProfesorController",
+    "Method": "Get",
+    "RelativePath": "api/profesores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.ProfesorController",
+    "Method": "Put",
+    "RelativePath": "api/profesores/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "profesorCreacionDTO",
+        "Type": "EscuelaMusicaAPI.DTOs.ProfesorCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.ProfesorController",
+    "Method": "Delete",
+    "RelativePath": "api/profesores/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EscuelaMusicaAPI.Controllers.ProfesorController",
+    "Method": "Get",
+    "RelativePath": "api/profesores/{profesoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObtenerProfesor"
+  }
+]
